@@ -1,0 +1,118 @@
+{
+  "id": "marketing_two",
+  "type": "SharedSlice",
+  "name": "MarketingTwo",
+  "description": "MarketingTwo",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MarketingTwo",
+      "primary": {
+        "titleOne": {
+          "config": {
+            "label": "Title for 1st Sale Item",
+            "placeholder": "Title for 1st Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "descriptionOne": {
+          "config": {
+            "label": "Desc for 1st Sale Item",
+            "placeholder": "Desc for 1st Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "saleImageOne": {
+          "config": {
+            "label": "Image for 1st Sale",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "saleUrlOne": {
+          "config": {
+            "label": "Url for 1st Sale Item",
+            "placeholder": "Url for 1st Sale Item",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonTextOne": {
+          "config": {
+            "label": "Text for 1st Sale Item Button",
+            "placeholder": "Text for 1st Sale Item Button",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColorOne": {
+          "config": {
+            "label": "Color for 1st Sale Item",
+            "placeholder": "Color for 1st Sale Item"
+          },
+          "type": "Color"
+        },
+        "titleTwo": {
+          "config": {
+            "label": "Title for 2nd Sale Item",
+            "placeholder": "Title for 2nd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "descriptionTwo": {
+          "config": {
+            "label": "Description for 2nd Sale Item",
+            "placeholder": "Description for 2nd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "saleImageTwo": {
+          "config": {
+            "label": "Image for 2nd Item",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "saleUrlTwo": {
+          "config": {
+            "label": "Url for 2nd Sale Item",
+            "placeholder": "Url for 2nd Sale Item",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonTextTwo": {
+          "config": {
+            "label": "Text for button of 2nd Sale Item",
+            "placeholder": "Text for button of 2nd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColorTwo": {
+          "config": {
+            "label": "BG color for 2nd Sale Item",
+            "placeholder": "BG color for 2nd Sale Item"
+          },
+          "type": "Color"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

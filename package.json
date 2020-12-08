@@ -1,0 +1,33 @@
+{
+  "name": "prismic-nuxt-imgix-marketing-starter",
+  "version": "1.0.0",
+  "description": "A starter demo showing how to use leverage more advanced responsive design and additional imgix parameter with a prismic project. Demo is of some marketing style images using nuxt.",
+  "author": "Tom Dale",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "prismic": "prismic",
+    "slicemachine": "start-slicemachine --port 9999",
+    "storybook": "nuxt storybook",
+    "build-storybook": "nuxt storybook build"
+  },
+  "dependencies": {
+    "@nuxtjs/prismic": "^1.2.4",
+    "nuxt": "^2.0.0",
+    "vue-imgix": "^2.8.1",
+    "@prismicio/vue": "^2.0.7",
+    "nuxt-sm": "^0.0.6",
+    "vue-slicezone": "^0.0.28"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.3.0",
+    "@nuxtjs/storybook": "2.2.2",
+    "prismic-cli": "3.8.3-beta.0",
+    "shx": "^0.3.3",
+    "slice-machine-ui": "^0.0.38",
+    "sm-commons": "^0.0.23"
+  }
+}
