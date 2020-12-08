@@ -12,7 +12,7 @@ npm install -g prismic-cli
 Then you can clone this theme and initiate the prismic project:
 
 ```
-prismic theme --theme-url https://github.com/daletom/prismic-nuxt-imgix-marketing-starter.git --conf nuxt.config.js
+prismic theme --theme-url https://github.com/daletom/prismic-nuxt-imgix-marketing-starter.git --conf sm.json
 ```
 
 ## License

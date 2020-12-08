@@ -1,0 +1,12 @@
+{
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "placeholder": "meaningful-unique-identifier...",
+          "label": "Unique ID"
+        }
+      }
+    }
+  }
+  

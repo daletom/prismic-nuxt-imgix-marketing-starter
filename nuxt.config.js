@@ -1,3 +1,4 @@
+import { apiEndpoint } from "./sm.json";
 
 export default {
   mode: 'universal',
@@ -38,9 +39,11 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/prismic'],
+  modules: [['@nuxtjs/prismic'], ['nuxt-sm']],
   prismic: {
-    endpoint: 'https://your-repo-name.cdn.prismic.io/api/v2'
+    endpoint: apiEndpoint,
+    linkResolver: "@/plugins/link-resolver",
+    htmlSerializer: "@/plugins/html-serializer"
   },
   /*
   ** Build configuration
