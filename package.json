@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/prismic": "^1.2.4",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.7",
     "vue-imgix": "^2.8.1",
     "@prismicio/vue": "^2.0.7",
     "nuxt-sm": "^0.0.6",
@@ -26,9 +26,13 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.3.0",
     "@nuxtjs/storybook": "2.2.2",
-    "prismic-cli": "3.8.3-beta.0",
     "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.38",
-    "sm-commons": "^0.0.23"
+    "sm-commons": "^0.0.23",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "node-sass": "^5.0.0",
+    "core-js": "3",
+    "sass-loader": "^10.1.0",
+    "webpack": "^4.44.2"
   }
 }

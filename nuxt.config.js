@@ -1,7 +1,7 @@
 import { apiEndpoint } from "./sm.json";
 
 export default {
-  mode: 'universal',
+  target: 'static',
   /*
   ** Headers of the page
   */
@@ -14,7 +14,12 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [{
+      src: "https://cdn.polyfill.io/v2/polyfill.min.js?features=Element.prototype.classList"
+    }, {
+      src: "https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js"
+    }]
   },
   /*
   ** Customize the progress-bar color
@@ -23,8 +28,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: ["vue-essential-slices/src/styles/styles.scss"],
   /*
   ** Plugins to load before mounting the App
   */
@@ -41,9 +45,7 @@ export default {
   */
   modules: [['@nuxtjs/prismic'], ['nuxt-sm']],
   prismic: {
-    endpoint: apiEndpoint,
-    linkResolver: "@/plugins/link-resolver",
-    htmlSerializer: "@/plugins/html-serializer"
+    endpoint: apiEndpoint
   },
   /*
   ** Build configuration
@@ -52,10 +54,13 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
-    }
+    transpile: ["vue-slicezone", "nuxt-sm"]
   },
   generate: {
     fallback: '404.html'
-  }
+  },
+  storybook: {
+    stories: ["~/slices/**/*.stories.js"]
+  },
+  ignore: ["**/*.stories.js"]
 }
