@@ -1,0 +1,177 @@
+{
+  "id": "marketing_three",
+  "type": "SharedSlice",
+  "name": "MarketingThree",
+  "description": "MarketingThree",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MarketingThree",
+      "primary": {
+        "titleOne": {
+          "config": {
+            "label": "Title for 1st Sale Item",
+            "placeholder": "Title for 1st Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "descriptionOne": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "descriptionOne",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "saleImageOne": {
+          "type": "Image",
+          "config": {
+            "id": "saleImageOne",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "saleUrlOne": {
+          "config": {
+            "label": "Url for button one",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonTextOne": {
+          "config": {
+            "label": "Text for 1st Sale Item Button",
+            "placeholder": "Text for 1st Sale Item Button",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColorOne": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "bgColorOne",
+            "placeholder": ""
+          }
+        },
+        "titleTwo": {
+          "config": {
+            "label": "Title for 2nd Sale Item",
+            "placeholder": "Title for 2nd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "descriptionTwo": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "descriptionTwo",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "saleImageTwo": {
+          "type": "Image",
+          "config": {
+            "id": "saleImageTwo",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "saleUrlTwo": {
+          "config": {
+            "label": "url for button two",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonTextTwo": {
+          "config": {
+            "label": "Text for button of 2nd Sale Item",
+            "placeholder": "Text for button of 2nd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColorTwo": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "bgColorTwo",
+            "placeholder": ""
+          }
+        },
+        "titleThree": {
+          "config": {
+            "label": "Title for 3rd Sale Item",
+            "placeholder": "Title for 3rd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "descriptionThree": {
+          "type": "StructuredText",
+          "config": {
+            "label": "",
+            "id": "descriptionThree",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          }
+        },
+        "saleImageThree": {
+          "type": "Image",
+          "config": {
+            "id": "saleImageThree",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "saleUrlThree": {
+          "config": {
+            "label": "url for button three",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonTextThree": {
+          "config": {
+            "label": "Text for button of 3rd Sale Item",
+            "placeholder": "Text for button of 3rd Sale Item",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColorThree": {
+          "type": "Color",
+          "config": {
+            "label": "",
+            "id": "bgColorThree",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

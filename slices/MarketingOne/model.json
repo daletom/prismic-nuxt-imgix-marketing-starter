@@ -1,0 +1,67 @@
+{
+  "id": "marketing_one",
+  "type": "SharedSlice",
+  "name": "MarketingOne",
+  "description": "MarketingOne",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MarketingOne",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "saleImage": {
+          "type": "Image",
+          "config": {
+            "id": "saleImage",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "saleUrl": {
+          "config": {
+            "label": "Url for button",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonText": {
+          "config": {
+            "label": "Text for button",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "bgColor": {
+          "config": {
+            "label": "Color of background",
+            "placeholder": ""
+          },
+          "type": "Color"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
