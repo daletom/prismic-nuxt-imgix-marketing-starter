@@ -62,5 +62,6 @@ export default {
   storybook: {
     stories: ["~/slices/**/*.stories.js"]
   },
-  ignore: ["**/*.stories.js"]
+  ignore: ["**/*.stories.js"],
+  components: true
 }
